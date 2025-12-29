@@ -34,21 +34,20 @@ Ensure you have one of the following screenshot tools installed on your system:
 ### Via Gemini CLI (If published)
 
 ```bash
-gemini extensions install <repository-url>
+gemini extensions install https://github.com/timsonner/gemini-screenshot-extension
 ```
 
-## Usage
+## Usage  
+
+From within Gemini CLI  
+```
+/screenshot
+```
 
 Simply run the command in your terminal:
 
 ```bash
 gemini screenshot
-```
-
-Or if you installed it as a direct script:
-
-```bash
-~/.gemini/commands/screenshot.sh
 ```
 
 ## How It Works
