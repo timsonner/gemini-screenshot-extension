@@ -15,7 +15,13 @@ Ensure you have one of the following screenshot tools installed on your system:
 - **macOS:** `screencapture` (Pre-installed)
 - **Linux:** `scrot`, `gnome-screenshot`, or `imagemagick` (`import`)
 
-## Installation
+## Installation  
+
+### Via Gemini CLI
+
+```bash
+gemini extensions install https://github.com/timsonner/gemini-screenshot-extension
+```
 
 ### Manual Installation
 
@@ -25,17 +31,13 @@ Ensure you have one of the following screenshot tools installed on your system:
     ```bash
     chmod +x ~/.gemini/commands/screenshot.sh
     ```
-4.  Add a command alias in `~/.gemini/commands/screenshot.toml` (optional but recommended):
+4.  Add a command alias in `~/.gemini/commands/screenshot.toml`:
+   
     ```toml
     description = "Take a screenshot and analyze it"
     prompt = "!{bash ~/.gemini/commands/screenshot.sh}"
     ```
-
-### Via Gemini CLI (If published)
-
-```bash
-gemini extensions install https://github.com/timsonner/gemini-screenshot-extension
-```
+    
 
 ## Usage  
 
