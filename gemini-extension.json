@@ -1,0 +1,17 @@
+{
+  "name": "gemini-screenshot",
+  "version": "1.0.0",
+  "description": "A Gemini CLI extension to capture and analyze screenshots instantly.",
+  "author": "Tim Sonner",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "screenshot",
+      "description": "Take a screenshot and have Gemini analyze it.",
+      "command": "bash screenshot.sh"
+    }
+  ],
+  "requirements": {
+    "system": ["scrot", "screencapture", "gnome-screenshot", "import"]
+  }
+}
