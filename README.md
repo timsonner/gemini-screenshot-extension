@@ -17,28 +17,24 @@ Ensure you have one of the following screenshot tools installed on your system:
 
 ## Installation  
 
-### Via Gemini CLI
+### Register extension
 
 ```bash
 gemini extensions install https://github.com/timsonner/gemini-screenshot-extension
 ```
 
-### Manual Installation
+### Register command
 
-1.  Clone this repository or download the files.
-2.  Copy `screenshot.sh` to your Gemini commands directory (usually `~/.gemini/commands/`).
-3.  Make the script executable:
+1.  Change directories `cd gemini-screenshot-extension`
+2.  Copy `screenshot.toml` to your Gemini commands directory (usually `~/.gemini/commands/`):
+   ```bash
+cp ./screenshot.toml ~/.gemini/commands/
+   ```
+4.  Make the script executable:
     ```bash
-    chmod +x ~/.gemini/commands/screenshot.sh
-    ```
-4.  Add a command alias in `~/.gemini/commands/screenshot.toml`:
-   
-    ```toml
-    description = "Take a screenshot and analyze it"
-    prompt = "!{bash ~/.gemini/commands/screenshot.sh}"
+    chmod +x ~/.gemini/extensions/gemini-screenshot/screenshot.sh
     ```
     
-
 ## Usage  
 
 From within Gemini CLI  
