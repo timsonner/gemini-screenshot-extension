@@ -36,7 +36,7 @@ cp ./screenshot.toml ~/.gemini/commands/
 ```
 3.  Make the script executable:
 ```bash
-    chmod +x ~/.gemini/extensions/gemini-screenshot/screenshot.sh
+chmod +x ~/.gemini/extensions/gemini-screenshot/screenshot.sh
 ```
     
 ## Usage  
