@@ -8,7 +8,7 @@
     {
       "name": "screenshot",
       "description": "Take a screenshot and have Gemini analyze it.",
-      "command": "bash screenshot.sh"
+      "command": "bash ~/.gemini/extensions/gemini-screenshot/screenshot.sh"
     }
   ],
   "requirements": {
