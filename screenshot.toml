@@ -1,2 +1,2 @@
 description = "Take a screenshot and analyze it"
-prompt = "!{bash ~/.gemini/commands/screenshot.sh}"
+prompt = "!{bash ~/.gemini/extensions/gemini-screenshot/screenshot.sh}"
