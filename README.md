@@ -25,15 +25,19 @@ gemini extensions install https://github.com/timsonner/gemini-screenshot-extensi
 
 ### Register command
 
-1.  Change directories `cd gemini-screenshot-extension`
-2.  Copy `screenshot.toml` to your Gemini commands directory (usually `~/.gemini/commands/`):
-   ```bash
+1.  Clone the repo and change directories
+```bash
+git clone htts://github.com/timsonner/gemini-screenshot-extension.git
+cd gemini-screenshot-extension
+```
+3.  Copy `screenshot.toml` to your Gemini commands directory (usually `~/.gemini/commands/`):
+```bash
 cp ./screenshot.toml ~/.gemini/commands/
-   ```
-4.  Make the script executable:
-    ```bash
+```
+3.  Make the script executable:
+```bash
     chmod +x ~/.gemini/extensions/gemini-screenshot/screenshot.sh
-    ```
+```
     
 ## Usage  
 
