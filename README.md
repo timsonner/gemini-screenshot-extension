@@ -38,6 +38,15 @@ Or directly from your terminal:
 gemini screenshot
 ```
 
+## Use Cases
+
+This extension is particularly powerful for front-end developers and creatives:
+
+- **UI Implementation:** Take a screenshot of a design or a live site and ask: *"How would you render this web element using Tailwind CSS?"*
+- **Asset Creation:** Capture a UI icon and ask: *"Can you recreate this icon as a clean, optimized SVG?"*
+- **Bug Reporting:** Snap a visual glitch and ask: *"Identify the likely CSS layout issue causing this alignment problem."*
+- **Creative Inspiration:** Capture any visual element and use follow-up prompts to brainstorm variations or alternative color palettes.
+
 ## How It Works
 
 1.  The extension triggers your system's screenshot selection tool (e.g., crosshairs appear).
