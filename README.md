@@ -17,9 +17,14 @@ Ensure you have one of the following screenshot tools installed on your system:
 
 ## Installation
 
+1. Ensure you have the [Gemini CLI](https://github.com/google/gemini-cli) installed.
+2. Run the following command:
+
 ```bash
 gemini extensions install https://github.com/timsonner/gemini-screenshot-extension
 ```
+
+*Note: If you are already inside a Gemini CLI session, you may need to exit and restart it for the `/screenshot` command to appear.*
 
     
 ## Usage  
