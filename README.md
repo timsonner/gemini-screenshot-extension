@@ -6,7 +6,7 @@ A simple but powerful extension for the [Gemini CLI](https://github.com/google/g
 
 - **Instant Capture:** Uses your system's native screenshot tool.
 - **AI Analysis:** Automatically sends the image to Gemini for description or analysis.
-- **Auto-Cleanup:** Keeps your workspace clean by managing temporary files.
+- **Cross-Platform:** Works on macOS and major Linux environments.
 
 ## Prerequisites
 
@@ -26,23 +26,34 @@ gemini extensions install https://github.com/timsonner/gemini-screenshot-extensi
 
 *Note: If you are already inside a Gemini CLI session, you may need to exit and restart it for the `/screenshot` command to appear.*
 
-    
-## Usage  
+## Usage
 
-From within Gemini CLI  
+From within Gemini CLI:
 ```
 /screenshot
 ```
 
-Simply run the command in your terminal:
-
+Or directly from your terminal:
 ```bash
 gemini screenshot
 ```
 
 ## How It Works
 
-1.  The script triggers your system's screenshot selection tool.
-2.  It saves the image to a temporary location accessible to the Gemini agent.
-3.  It invokes the `gemini` command with the image path, prompting the AI to describe it.
-4.  The temporary image is deleted after processing.
+1.  The extension triggers your system's screenshot selection tool (e.g., crosshairs appear).
+2.  It saves the captured image to a temporary location.
+3.  It generates a prompt for the Gemini agent including the image path (using the `@` syntax).
+4.  Gemini analyzes the image within your current session.
+
+## Removal
+
+To uninstall the extension, run:
+
+```bash
+gemini extensions remove gemini-screenshot-extension
+```
+
+Alternatively, you can manually delete the extension directory:
+```bash
+rm -rf ~/.gemini/extensions/gemini-screenshot-extension
+```
